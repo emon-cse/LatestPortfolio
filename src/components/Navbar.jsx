@@ -13,6 +13,7 @@ const items = [
   { id: 8, name: "Resume", icon: faFile, link:"#Resume" }
 ];
 
+
 const Navbar = () => {
     return (
         <aside className='h-dvh w-48 flex flex-col sticky top-0'>
@@ -26,7 +27,7 @@ const Navbar = () => {
 
                 <ul className='text-[#198c81]'>
                     {items.map((item) => (
-                        <li key={item.id} className='flex gap-3.5 p-1 items-center hover:bg-blue-200 hover:w-full'>
+                        <li key={item.id} className='flex gap-3.5 p-1 items-center hover:bg-blue-100 hover:w-full'>
                             <div className='text-[25px]'>
                                  <FontAwesomeIcon icon={item.icon} />
 
